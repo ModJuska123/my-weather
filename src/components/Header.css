@@ -2,22 +2,65 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    box-shadow: 0 4px 8px #0003;
+    box-shadow: 0 4px 8px #41506b;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #5e87b8;
     z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .main-header > .logo {
     font-size: 2rem;
     line-height: 1em;
 }
-.date-set {
-padding-top: 5px;
+
+.weather_data {
+/* display: flex; */
+padding-top: 0px;
 font-size: 16px;
+border-style: none;
 }
 
-.main-header > .btn {
-}
+.button3 {
+    background-color: rgb(43, 161, 227);
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .button3:hover {
+    background-color: #fff;
+    color: rgb(43, 161, 227)
+  }
+
+.topnav {
+    background-color: rgb(43, 161, 227);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .topnav a:hover {
+    background-color: #fff;
+    color: rgb(43, 161, 227);
+  }
+  
+  .topnav a.active {
+    background-color: #fff;
+    color: rgb(43, 161, 227);
+  }
